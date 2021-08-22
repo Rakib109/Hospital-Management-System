@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+nav {
+	text-align: left;
+	margin: 10px;
+}
+
+body {
+	width: 60%;
+	margin: auto;
+}
+
+nav a {
+	font-size: 28px;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+h1 {
+	margin: 20px;
+}
+
+input,
+select {
+	font-size: 24px;
+	text-align: left;
+	margin-bottom: 11px;
+	padding: 6px;
+}
+
+.admin button {
+	font-size: 23px;
+	padding: 9px;
+	margin-top: 20px;
+}
+
+.container {
+	margin: 10px;
+	background-color: #c3ebff;
+	padding: 13px;
+	border-radius: 10px;
+}
+
+.container p {
+	font-size: 26px;
+}
+
+.container p,
+.container h2 {
+	width: 180px;
+	text-align: left;
+}
+
+.container > div {
+	display: flex;
+	justify-content: center;
+}
+
+#viewall a {
+	text-decoration: none;
+	color: black;
+}
+
+#deleteform input {
+	font-size: 21px;
+	padding: 8px;
+	width: 144px;
+	background: #fb5c5c;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.patients-table {
+	font-size: 23px;
+	margin: 35px 0;
+}
+
+.patients-table td {
+	text-align: left;
+	padding-left: 25px;
+}
